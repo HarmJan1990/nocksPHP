@@ -12,12 +12,17 @@ This is the first class i made and the first time i use Github so if you have qu
 
 # Usage
 
-  use HarmJan1990\nocksPHP\Client;
-  $bearer = ''; // use your bearer token.
-  $n = new Client($bearer);
-  $list = $n->GetOrders();
+```
+use HarmJan1990\nocksPHP\Client;
   
+$bearer = ''; // use your bearer token.
+  
+$n = new Client($bearer);
+  
+$list = $n->GetOrders();
+```
+
   
 # Documentation
 
-I documentated every function in the Client.php file.
+I documented every function in the Client.php file.
